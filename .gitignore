@@ -1,0 +1,8 @@
+# Folders
+.idea
+bin
+obj
+
+# Files
+UnimodalFunctions.sln
+UnimodalFunctions.csproj
