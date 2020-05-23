@@ -11,6 +11,7 @@
             foreach (var epsilon in Epsilons)
             {
                 new DichotomyMethod(A, B, epsilon).Solve();
+                new GoldenSectionMethod(A, B, epsilon).Solve();
             }
         }
     }
