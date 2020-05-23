@@ -1,4 +1,4 @@
-namespace UnimodalFunctions
+namespace UnimodalFunctions.methods
 {
     public class DichotomyMethod
     {

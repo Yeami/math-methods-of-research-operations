@@ -1,4 +1,6 @@
-﻿namespace UnimodalFunctions
+﻿using UnimodalFunctions.methods;
+
+namespace UnimodalFunctions
 {
     internal static class Program
     {

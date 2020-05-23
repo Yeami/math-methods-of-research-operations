@@ -1,6 +1,6 @@
 using System;
 
-namespace UnimodalFunctions
+namespace UnimodalFunctions.methods
 {
     public class GoldenSectionMethod
     {
