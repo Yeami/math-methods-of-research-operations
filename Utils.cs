@@ -20,7 +20,7 @@ namespace UnimodalFunctions
         )
         {
             Console.WriteLine(
-                $"\n----- {method} -----" +
+                $"\n----- {method} method -----" +
                 $"\nEpsilon: {epsilon}" +
                 $"\nx*: {point}" +
                 $"\nf*: {function}" +

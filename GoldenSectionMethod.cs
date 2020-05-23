@@ -59,7 +59,7 @@ namespace UnimodalFunctions
             var point = Utils.RoundToEps(_eps, (_a + _b) / 2);
             var function = Utils.RoundToEps(_eps, _function.Solve(point));
 
-            Utils.Print("Golden Section method", _eps, point, function, _iterationAmount, _function.CallAmount);
+            Utils.Print("Golden Section", _eps, point, function, _iterationAmount, _function.CallAmount);
         }
     }
 }
