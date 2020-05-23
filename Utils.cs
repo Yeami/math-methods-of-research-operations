@@ -11,6 +11,7 @@ namespace UnimodalFunctions
 
         public static void Print
         (
+            string method,
             double epsilon,
             double point,
             double function,
@@ -19,7 +20,7 @@ namespace UnimodalFunctions
         )
         {
             Console.WriteLine(
-                "\n----- Dichotomy method -----" +
+                $"\n----- {method} -----" +
                 $"\nEpsilon: {epsilon}" +
                 $"\nx*: {point}" +
                 $"\nf*: {function}" +
