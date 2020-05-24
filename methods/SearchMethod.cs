@@ -52,11 +52,13 @@ namespace UnimodalFunctions.methods
 
                 LuckyThree = new[] {x2, x1, _x0};
             }
+            else
+            {
+                var point = _x0;
+                var function = Utils.RoundToEps(_eps, _function.Solve(point));
 
-            var point = _x0;
-            var function = Utils.RoundToEps(_eps, _function.Solve(point));
-
-            LuckyThree = new[] {x2, x2 + _h, _x0};
+                LuckyThree = new[] {x2, x2 + _h, _x0};   
+            }
         }
     }
 }
