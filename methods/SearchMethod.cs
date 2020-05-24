@@ -8,7 +8,7 @@ namespace UnimodalFunctions.methods
         private double _h;
         private readonly double _eps;
         private readonly Function _function;
-        private double[] LuckyThree { get; set; }
+        public double[] LuckyThree { get; private set; }
 
         public SearchMethod(double x0, double h, double eps)
         {

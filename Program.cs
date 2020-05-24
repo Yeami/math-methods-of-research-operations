@@ -15,6 +15,7 @@ namespace UnimodalFunctions
                 new DichotomyMethod(A, B, epsilon).Solve();
                 new GoldenSectionMethod(A, B, epsilon).Solve();
                 new FibonacciMethod(A, B, epsilon).Solve();
+                new ParabolaMethod(A, B, epsilon).Solve();
             }
         }
     }
